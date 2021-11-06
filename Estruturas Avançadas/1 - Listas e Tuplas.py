@@ -1,5 +1,25 @@
-<<<<<<< HEAD
-from typing_extensions import Unpack
+print(nomes_paises[1:3])
+
+print(nomes_paises[1:-1])
+
+print(nomes_paises[2:])
+
+print(nomes_paises[:3])
+
+print(nomes_paises[:])
+
+print(nomes_paises[::2])
+
+print(nomes_paises[::-1])
+
+print(nomes_paises[::-1])
+
+print('Brasil' in nomes_paises)
+
+print('Canada' not in nomes_paises)
+
+
+lista_capitais = {}
 
 
 nomes_paises = ['brasil', 'acanada', 'china', 'argentina', 'japao']
@@ -17,7 +37,6 @@ nomes_paises[4] = 'Colombia'
 print(nomes_paises)
 
 
-<<<<<<< HEAD
 listas_capitais = []
 
 listas_capitais.append('Brasilia')
@@ -35,7 +54,6 @@ print(listas_capitais)
 
 removido = listas_capitais.pop(2)
 print(listas_capitais, removido)
-
 
 
 
@@ -62,28 +80,4 @@ b, a, c, ca, j = nomes_paises
 print(b, c, j)
 
 print(*nomes_paises)
-=======
-print(nomes_paises[1:3])
-
-print(nomes_paises[1:-1])
-
-print(nomes_paises[2:])
-
-print(nomes_paises[:3])
-
-print(nomes_paises[:])
-
-print(nomes_paises[::2])
-
-print(nomes_paises[::-1])
-
-print(nomes_paises[::-1])
-
-print('Brasil' in nomes_paises)
-
-print('Canada' not in nomes_paises)
-
-
-lista_capitais = {}
->>>>>>> 46a05ce1daedbdfc7471a0f4f2dc093cb173f81b
 
