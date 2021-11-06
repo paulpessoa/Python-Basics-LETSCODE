@@ -55,3 +55,6 @@ nomes_paises[0]
 b, a, c, ca, j = nomes_paises
 
 print(b, c, j)
+
+print(*nomes_paises)
+
