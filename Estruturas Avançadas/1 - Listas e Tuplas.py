@@ -1,3 +1,6 @@
+from typing_extensions import Unpack
+
+
 nomes_paises = ['brasil', 'acanada', 'china', 'argentina', 'japao']
 print (nomes_paises)
 
@@ -29,3 +32,26 @@ removido = listas_capitais.pop(2)
 print(listas_capitais, removido)
 
 
+
+
+
+
+
+nomes_paises = ('brasil', 'argentina', 'canada', 'japao')
+print(nomes_paises, type(nomes_paises))
+
+nomes_paises = 'brasil', 'argentina', 'canada', 'japao'
+print(nomes_paises, type(nomes_paises))
+
+
+nome_estado = 'sao paulo',
+print(nome_estado, type(nome_estado))
+
+
+len(nomes_paises)
+
+nomes_paises[0]
+
+b, a, c, ca, j = nomes_paises
+
+print(b, c, j)
